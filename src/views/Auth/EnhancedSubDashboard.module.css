@@ -1,0 +1,309 @@
+@media screen and (min-width: 1000px){
+    #mainFrame{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        min-height: 60vh;
+        overflow: hidden;
+        min-width: 99%;
+        max-width: 100%;
+        
+    }
+
+    #dailyAndTotal{
+        max-width: 35%;
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 30%;
+    }
+
+    #showForeignRecords{
+        flex: 1 1 100%;
+        background-color: #212121;
+        border: 5px solid red;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; /* Distributes space evenly around the items */
+        align-items: center;
+        max-height: 150px;
+        padding: 3%;
+
+    }
+
+    #childOfDailyAndTotal{
+        flex: 1 1 27%;
+        background-color: #212121;
+        border: 5px solid red;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; /* Distributes space evenly around the items */
+        align-items: center;
+        min-height: 100px;
+        padding: 3%;
+    }
+
+    #innerLeftestCaption{
+        /* align-self: center; */
+        
+    }
+
+    #innerLeftValue{
+        /* align-self: center; */
+        
+    }
+
+    #mapFrame{
+        min-width: 40%;
+        max-width: 48%;
+        background-color: #212121;
+        display: flex;
+        margin-left: 15px;
+        flex-direction: column;
+        border: 5px solid red;
+        border-radius: 5px;
+        max-height: 10% !important;
+        max-height: 30%;
+    }
+
+    #mapInfo{
+        width: 100%;
+        background-color: #212121;
+        padding: 10px;
+    }
+
+    #mapOrGraph{
+        max-width: 90%;
+        display: flex;          /* Enables flexbox layout */
+        justify-content: center; /* Centers items horizontally */
+        align-items: center;    /* Centers items vertically */
+        margin: 0 auto;         /* Centers the whole element horizontally within its container */
+    }
+
+    #setTypeOfGraph{
+        max-width: 90%;
+        display: flex;          /* Enables flexbox layout */
+        justify-content: center; /* Centers items horizontally */
+        align-items: center;    /* Centers items vertically */
+        margin: 0 auto;         /* Centers the whole element horizontally within its container */
+    }
+
+    #barchart{
+        margin: auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        min-width: 40%;
+    }
+
+    #rightestOuter{
+        min-height: 100vh;
+        background-color: white;
+        margin-left: 15px;
+        background-color: #212121;
+        min-width: 30%;
+        max-width: 30%;
+        border: 5px solid red;
+        border-radius: 5px;
+        align-items: center;
+        max-height: 30%;
+    }
+
+    #radioBox{
+        margin-top: 25px;
+        margin-right: 25px;
+        display: inline-block;
+    }
+
+    #recordList{
+        background-color: white;
+        max-height: 250px;
+        width: 80%;
+        margin-top: 0;
+        margin: auto;
+        overflow: scroll;
+    }
+
+    #recordListBar{
+        background-color: white;
+        max-height: 250px;
+        width: 80%;
+        margin-top: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #recordListBarOpaque{
+        background-color: transparent;
+        max-height: 250px;
+        width: 80%;
+        margin-top: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #datepicker{
+        margin-bottom: 20px;
+    }
+
+    #contentBar{
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #contentTable{
+        display: table-cell;
+        margin-left: 50% !important;
+    }
+
+    #mapButtonBox
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    #mapButton{
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 999px){
+    #mainFrame{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 60vh;
+        min-width: 99% !important;
+        max-width: 100% !important;
+        overflow: hidden;
+    }
+
+    #dailyAndTotal{
+        max-width: 99%;
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 30%;
+        margin-top: 5%;
+    }
+
+    #childOfDailyAndTotal{
+        flex: 1 1 33%;
+        background-color: #212121;
+        border: 5px solid red;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; /* Distributes space evenly around the items */
+        align-items: center;
+        min-height: 100px;
+        padding: 3%;
+    }
+
+    #mapFrame{
+        min-width: 90%;
+        max-width: 98%;
+        background-color: #212121;
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
+        border: 5px solid red;
+        border-radius: 5px;
+        max-height: 10% !important;
+        max-height: 30%;
+        
+    }
+
+    #chartContainer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #rightestOuter{
+        min-height: 100vh;
+        background-color: white;
+        margin-top: 15px;
+        background-color: #212121;
+        min-width: 90%;
+        max-width: 98%;
+        border: 5px solid red;
+        border-radius: 5px;
+        align-items: center;
+        max-height: 30%;
+        padding: 5%;
+    }
+
+    #recordList{
+        background-color: white !important;
+        max-height: 250px;
+        width: 80%;
+        margin-top: 0;
+        margin: auto;
+        overflow: scroll;
+    }
+
+    #recordListBarOpaque{
+        background-color: transparent;
+        max-height: 250px;
+        width: 80%;
+        margin-top: 0;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #datepicker{
+        margin-bottom: 20px;
+    }
+
+    #contentBar{
+        text-align: center;
+        overflow: hidden;
+    }
+
+    #contentTable{
+        display: table-cell;
+        margin-left: 50% !important;
+    }
+
+    #mapButtonBox
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    #mapButton{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #showForeignRecords{
+        flex: 1 1 100%;
+        background-color: #212121;
+        border: 5px solid red;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; /* Distributes space evenly around the items */
+        align-items: center;
+        max-height: 150px;
+        padding: 3%;
+
+    }
+
+}

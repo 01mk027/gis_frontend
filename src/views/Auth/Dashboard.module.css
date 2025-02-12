@@ -1,0 +1,70 @@
+@media screen and (min-width: 704px){
+    #dashbox
+    {
+        border: 5px solid black;
+        padding: 5px !important;
+        margin: 5%;
+    }
+
+    .firstBlockBox{
+        border: 5px solid red;
+        margin-top: 3%;
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .secondBlockBox{
+        border: 5px solid red;
+        margin-top: 3%;
+        min-width: 100%;
+        padding: 10px;
+    }
+
+    #dashbox2{
+        min-height: 490px !important;
+        border: 5px solid black;
+    }
+
+    #dashGraph{
+        min-height: 490px !important;
+        min-width: 60% !important;
+        border: 5px solid black;
+    }
+}
+
+@media screen and (max-width: 704px){
+    #dashbox
+    {
+        border: 5px solid black;
+        padding: 2px !important;
+        margin: 10% !important;
+        max-width: 85% !important;
+    }
+
+    .firstBlockBox{
+        border: 5px solid red;
+        margin-top: 3%;
+        min-width: 100%;
+        padding: 0;
+    }
+
+    .secondBlockBox{
+        border: 5px solid red;
+        margin-top: 3%;
+        min-width: 100%;
+        padding: 0;
+    }
+
+    #dashbox2{
+        min-height: 490px;
+        border: 5px solid black;
+    }
+
+    #dashGraph{
+        min-height: 490px !important;
+        min-width: 60% !important;
+        border: 5px solid black;
+    }
+}
+
+

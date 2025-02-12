@@ -1,0 +1,11 @@
+#photoShowFrame{
+    width: 30%;
+    margin: auto;
+    color: red;
+    background-color: black;
+    padding: 5%;
+}
+
+#photoShowFrame:hover{
+    cursor: pointer;
+}

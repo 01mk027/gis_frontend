@@ -1,0 +1,34 @@
+#registerMainFrame
+{
+        min-height: 56vh;
+        background-color: #212121;
+        min-width: 100%;
+        align-items: center;
+        justify-content: center;
+}
+
+#submitButton
+{
+    color: red;
+    border: 2px solid red;
+}
+
+#submitButton:hover{
+    color: white;
+    border: 2px solid white;
+    background-color: red;
+}
+
+#submitButton:active{
+    color: white;
+    border: 2px solid white;
+    background-color: red;
+}
+
+#warning{
+    background-color: red;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}

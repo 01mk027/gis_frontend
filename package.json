@@ -1,0 +1,66 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@react-pdf/renderer": "^4.1.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.1.3",
+    "bootstrap": "^5.3.3",
+    "d3": "^7.9.0",
+    "file-saver": "^2.0.5",
+    "i18next": "^23.15.1",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4",
+    "leaflet": "^1.9.4",
+    "leaflet-defaulticon-compatibility": "^0.1.2",
+    "lz-string": "^1.5.0",
+    "moment": "^2.30.1",
+    "proj4": "^2.12.1",
+    "proj4leaflet": "^1.0.2",
+    "react": "^18.2.0",
+    "react-beforeunload": "^2.6.0",
+    "react-bootstrap": "^2.10.4",
+    "react-date-picker": "^11.0.0",
+    "react-datepicker": "^7.3.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^15.0.2",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^6.4.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

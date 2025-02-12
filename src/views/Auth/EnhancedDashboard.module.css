@@ -1,0 +1,44 @@
+@media screen and (min-width: 704px){
+    #mainFrame{
+        min-height: 100vh !important;
+        margin: 0;
+        padding: 0;
+        min-width: 100%;
+    }
+
+    #namespaceSelectionFrame{
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #projectSelectionFrame{
+        padding-top: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    #subMainFrame{
+        margin-top: 15px;
+    }
+
+    #refreshProjectFrame{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 704px)
+{
+    #mainFrame{
+        min-height: 100vh !important;
+        margin: 0;
+        padding: 5%;
+        min-width: 100%;
+    }
+
+    #refreshProjectFrame{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
